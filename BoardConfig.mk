@@ -16,6 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := polaris
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
+TARGET_KERNEL_ADDITIONAL_FLAGS += LD=ld.lld AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
 TARGET_KERNEL_SOURCE := kernel/xiaomi/polaris
 TARGET_KERNEL_CONFIG := polaris_defconfig
 TARGET_KERNEL_CLANG_VERSION := proton
