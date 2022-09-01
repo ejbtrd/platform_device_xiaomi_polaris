@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/streak_polaris.mk
+    $(LOCAL_DIR)/tequila_polaris.mk

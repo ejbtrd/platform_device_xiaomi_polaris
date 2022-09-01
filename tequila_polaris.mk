@@ -6,18 +6,17 @@
 
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
-# Inherit some common ProjectStreak stuff.
-$(call inherit-product, vendor/streak/config/common_full_phone.mk)
+# Inherit some common TequilaOS stuff.
+$(call inherit-product, vendor/tequila/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := streak_polaris
+PRODUCT_NAME := tequila_polaris
 PRODUCT_DEVICE := polaris
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2S
 PRODUCT_MANUFACTURER := Xiaomi
 
-# ProjectStreak properties
-STREAK_BUILD_TYPE := OFFICIAL
+# TequilaOS properties
 TARGET_BOOT_ANIMATION_RES := 1080
 
 BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:8.0.0/OPR1.170623.032/V9.5.19.0.ODGMIFA:user/release-keys"
