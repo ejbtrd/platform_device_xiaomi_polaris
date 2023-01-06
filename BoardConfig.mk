@@ -19,8 +19,6 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_KERNEL_ADDITIONAL_FLAGS += LD=ld.lld AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
 TARGET_KERNEL_SOURCE := kernel/xiaomi/polaris
 TARGET_KERNEL_CONFIG := polaris_defconfig
-TARGET_KERNEL_CLANG_VERSION := proton
-KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 
 # HIDL
